@@ -1,0 +1,28 @@
+@media(max-width:1100px) {
+  body {
+    height: auto;
+    padding: 30px;
+  }
+  main {
+    grid-template-areas: 
+    'fist fist fifth'
+    'fourth fourth fifth'
+    'second third inpty'
+    ;
+  }
+}
+@media(max-width:840px) {
+  main {
+    grid-template-areas: 
+    'fist'
+    'second'
+    'third'
+    'fourth'
+    'fifth'
+    ;
+  }
+  main div {
+    width: 330px!important;
+    height: auto!important;
+  }
+}
